@@ -34,7 +34,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@angular-builders/common@workspace:packages/common"
   dependencies:
-    "@angular-devkit/core": ^17.1.0
     rimraf: ^5.0.0
     ts-node: ^10.0.0
     tsconfig-paths: ^4.1.0
@@ -14284,6 +14283,7 @@ __metadata:
     rxjs: 7.8.1
     tslib: 2.6.2
     typescript: 5.3.3
+    webpack-esm-plugin: "file:./webpack-esm-plugin"
     zone.js: 0.14.3
   languageName: unknown
   linkType: soft
@@ -16557,6 +16557,13 @@ __metadata:
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
   checksum: cd0063b068d2b938fd76c412d555374186ac2fa84bbae098265212ed50a5c15d6f03aa12a5a310c544a242943eb58c0bfde4c296d5c36765c182f53799e1bc71
+  languageName: node
+  linkType: hard
+
+"webpack-esm-plugin@file:./webpack-esm-plugin::locator=sanity-app-esm%40workspace%3Aexamples%2Fcustom-webpack%2Fsanity-app-esm":
+  version: 0.0.1
+  resolution: "webpack-esm-plugin@file:./webpack-esm-plugin#./webpack-esm-plugin::hash=961e19&locator=sanity-app-esm%40workspace%3Aexamples%2Fcustom-webpack%2Fsanity-app-esm"
+  checksum: 665e5b4c7ab7bd776bafd8fab37c62ed8e4dac7292b874d45412947e974f371f63655af6766f96cc5df7a8d524bbd92f87b96cd06e6cc5d4e3db5cc49d3f3393
   languageName: node
   linkType: hard
 
